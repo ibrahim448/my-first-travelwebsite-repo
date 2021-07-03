@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/********************************************************
+header
+********************************************************/
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/banner-img3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+    padding-top: 20px;
+    color: #fff; 
+    font-size: 22px;
+    font-weight: 800;
+}
+.logo span{
+    color: crimson;
+    font-size: 25PX;
+}
+.button{
+    float: right;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: transparent;
+    border: none;
+    outline: none !important;
+    border: 3px solid crimson;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.hero-text{
+    padding-top: 200px;
+ 
+}
+.hero-text h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.hero-text p{
+    font-size: 25px;
+    color: #ddd;
+    font-weight: 500;
+}
+
+.hero-text input{
+    padding: 12px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 50px;
+    outline: none !important;
+}
+
+/**************************************************
+Feature
+***************************************************/
+.feature{
+    background-color: #ddd;
+}
+.img{
+    position: relative;
+}
+
+.rate span{
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    background-color: crimson;
+    padding: 8px;
+    padding-top: 10px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    top: 44%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.rating{
+    color: crimson;
+    font-size: 13px;
+    position: absolute;
+    top: 41%;
+    right: 0;
+    background-color: #fff;
+}
+
+.feature-text h3{
+    margin-left: 14px;
+    color: crimson;
+    font-weight: 800;
+    font-size: 30px;
+}
+.feature-text p{
+    margin: 14px;
+    text-align: justify;
+}
+.feature-text a{
+    display: block;
+    color: crimson;
+    font-size: 21px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 14px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+.feature-text a:hover{
+    color: #262626;
+    text-decoration: underline;
+}
+
+/********************************************
+Travelling
+********************************************/
+
+.img-body{
+    position: relative;
+}
+.img-body img{
+    opacity: .9;
+}
+.img-body h5{
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+/*************************************************
+User Review
+*************************************************/
+.user-review{
+    background-color: #ddd;
+}
+.card{
+    position: relative;
+    box-shadow: 0px 3px 10px -3px rgba(0,0,0,0.2);
+}
+.card-body .fas{
+    color: crimson;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.card-body p{
+    color: #262626;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-body h4{
+    color: crimson;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.card-body h6{
+    margin-bottom: 50px;
+    color: darkolivegreen;
+    font-size: 18px;
+}
+.card-img img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 120px;
+}
+
+/**************************************************
+footer
+*************************************************/
+.footer{
+    background-color: #000;
+}
+.footer-logo strong{
+    color: crimson;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 30px;
+    display: block;
+    cursor: pointer;
+}
+.footer-logo span{
+    color: #fff;
+}
+.footer-logo p{
+    color: #fff;
+    font-size: 15px;
+    text-align: justify;
+}
+/***************************/
+.footer-logo2{
+    padding-left:110px;
+}
+.footer-logo2 strong{
+    color: crimson;
+    font-weight: 800;
+    font-size: 25px;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.footer-logo2 p{
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+/*******************************/
+
+
+/*****************************************/
+
+.footer-logo4 strong{
+    color: crimson;
+    font-weight: 800;
+    font-size: 25px;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.footer-logo4 .fab{
+    color: crimson;
+    cursor: pointer;
+    font-size: 15px;
+}
+.footer-logo4 p .fab:hover{
+    color: #fff;
+}
+.footer-logo4 p span{
+    color: #fff;
+    margin-left: 10px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.footer-logo4 p span:hover{
+    color: crimson;
+}
+.clear-fix{
+    border: 1px solid #ddd;
+}
+
+/***********************************************
+footer-end
+***********************************************/
+.footer-end p{
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.footer-end span{
+    color: crimson;
+}
+/*
+
+
+/***************************************
+media
+**************************************/
+
+
+
+@media screen and (max-width:1199px){
+    .hero-text h1{
+        font-size: 40px;
+    }
+    .hero-text p{
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .hero-text{
+        padding-top: 135px;
+    }
+    .feature{
+        background-color: #ddd;
+    }
+    .img{
+        position: relative;
+    }
+    
+    .rate span{
+        position: absolute;
+        top: 39%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .rating{
+        position: absolute;
+        top: 36%;
+        right: 0;
+    }
+    .card-body h6{
+        margin-bottom: 58px;
+    
+    }
+    .img-body h5{
+        font-size: 18px;
+    }
+    .card-img img{
+        width: 95px;
+        height: 95px;
+        top: 299px;
+        left: 93px;
+    }
+    
+    .footer-logo2{
+        padding-left:101px;
+    }
+    
+
+}
+
+@media screen and (max-width:990px){
+    .hero-text h1{
+        font-size: 28px;
+    }
+    .hero-text p{
+        font-size: 17px;
+    }
+    .hero-text{
+        padding-top: 135px;
+    }
+    .feature{
+        background-color: #ddd;
+    }
+    .img{
+        position: relative;
+    }
+    
+    .rate span{
+        position: absolute;
+        top: 27%;
+        left: 13%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .rating{
+        position: absolute;
+        top: 24%;
+        right: 0;
+    }
+    .feature-text h3{
+        text-align: center;
+    
+    }
+    .img-body h5{
+        font-size: 27px;
+    }
+    .card-img img{
+        width: 70px;
+        height: 70px;
+        top: 365px;
+        left: 71px;
+    }
+    .card-body h4{
+        font-size: 20px;
+    }
+   .footer-logo2{
+       padding-left: 0;
+   }
+    
+}
+
+
+@media screen and (max-width:768px){
+    .hero-text h1{
+        font-size: 28px;
+    }
+    .hero-text p{
+        font-size: 17px;
+    }
+    .hero-text{
+        padding-top: 135px;
+    }
+    .feature{
+        background-color: #ddd;
+    }
+    .img{
+        position: relative;
+    }
+    
+    .rate span{
+        position: absolute;
+        top: 57%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .rating{
+        position: absolute;
+        top: 55%;
+        right: 0;
+    }
+    .card-body h6{
+        margin-bottom: 58px;
+    
+    }
+    .card-img img{
+        width: 100px;
+        height: 100px;
+        top: 243px;
+        left: 205px;
+    }
+    .footer-logo2{
+        padding-left: 0px;
+    }
+
+}
+
+
+@media screen and (max-width:360px){
+    .hero-text h1{
+        font-size: 28px;
+    }
+    .hero-text p{
+        font-size: 17px;
+    }
+    .hero-text{
+        padding-top: 135px;
+    }
+    .feature{
+        background-color: #ddd;
+    }
+    .img{
+        position: relative;
+    }
+    
+    .rate span{
+        position: absolute;
+        top: 42%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .rating{
+        position: absolute;
+        top: 39%;
+        right: 0;
+    }
+    .travelling h1{
+        font-size: 23px;
+        font-weight: 800;
+    }
+    .card-body h6{
+        margin-bottom: 58px;
+    
+    }
+    .card-img img{
+        width: 80px;
+        height: 80px;
+        top: 336px;
+        left: 73px;
+    }
+    .footer-logo2{
+        padding-left: 0px;
+    }
+
+}
